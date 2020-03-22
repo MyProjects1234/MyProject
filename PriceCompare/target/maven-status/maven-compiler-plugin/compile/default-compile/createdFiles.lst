@@ -1,0 +1,3 @@
+pages\FlipkartPages.class
+manager\PageObjectManager.class
+pages\AmazonPages.class

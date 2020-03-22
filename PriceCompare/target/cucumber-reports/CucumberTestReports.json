@@ -1,0 +1,124 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "iPhone XR (64GB) - Yellow price comparision",
+        "description": "",
+        "id": "iphone-xr-(64gb)---yellow-price-comparision;iphone-xr-(64gb)---yellow-price-comparision",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11487621299,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User opens browser",
+            "match": {
+              "location": "priceComp.user_opens_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2003874300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "navigates to amazon",
+            "match": {
+              "location": "priceComp.navigates_to_amazon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2307865100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "page is loaded, searches for iPhone XR 64GB Yellow in amazon",
+            "match": {
+              "location": "priceComp.page_is_loaded_search_for_iPhone_XR_64GB_Yellow_in_amazon()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3365898700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Gets the price of the selected iPhone",
+            "match": {
+              "location": "priceComp.gets_the_price_of_the_selected_iPhone()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 15303448200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "navigates to flipkart",
+            "match": {
+              "location": "priceComp.navigates_to_https_www_flipkart_com()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3801878000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "page is loaded, searches for iPhone XR 64GB Yellow in flipkart",
+            "match": {
+              "location": "priceComp.page_is_loaded_search_for_iPhone_XR_64GB_Yellow_in_flipkart()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4498319500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Gets the price of the selected iPhone",
+            "match": {
+              "location": "priceComp.gets_the_price_of_the_selected_iPhone()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 44900,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "find which website has lesser value",
+            "match": {
+              "location": "priceComp.compares_the_price_on_both_the_website()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@runTest"
+          }
+        ]
+      }
+    ],
+    "name": "iPhone XR (64GB) - Yellow price comparision",
+    "description": "I want to comapre iPhone XR (64GB) - Yellow price in Amazon and Flipkart",
+    "id": "iphone-xr-(64gb)---yellow-price-comparision",
+    "keyword": "Feature",
+    "uri": "PriceCompare.feature"
+  }
+]
